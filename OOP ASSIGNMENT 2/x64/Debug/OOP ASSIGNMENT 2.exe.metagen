@@ -1,0 +1,87 @@
+  OOPASSIGNMENT2.AddStudentForm.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.AddTeacher.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.AddTimeslotForm.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.MainForm.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.RemoveStudentForm.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.RemoveTeacher.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.RoomLogin.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.SectionLogin.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.StudentLogin.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.TeacherLogin.resources - Embedded, ContainedInManifestFile, 
+  OOPASSIGNMENT2.TeacherTimeTableForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OOP ASSIGNMENT 2, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC.STLCLR, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class OOPASSIGNMENT2.AddStudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.AddTeacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.AddTimeslotForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Timeslot 'get set' : 
+    System.String Day 'get set' : 
+    System.String Room 'get set' : 
+    System.String Teacher 'get set' : 
+    System.String Course 'get set' : 
+  Methods:
+    get_Course(): PrivateScope, Public, HideBySig, SpecialName
+    set_Course(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Teacher(): PrivateScope, Public, HideBySig, SpecialName
+    set_Teacher(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Room(): PrivateScope, Public, HideBySig, SpecialName
+    set_Room(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Day(): PrivateScope, Public, HideBySig, SpecialName
+    set_Day(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Timeslot(): PrivateScope, Public, HideBySig, SpecialName
+    set_Timeslot(String): PrivateScope, Public, HideBySig, SpecialName
+Class OOPASSIGNMENT2.TeacherTimeTableForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.TeacherLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.StudentTimeTable: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.StudentLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.SectionTimeTable: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.SectionLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.RoomTimeTable: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.RoomLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.RemoveStudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.RemoveTeacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPASSIGNMENT2.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
